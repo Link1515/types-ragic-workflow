@@ -1,3 +1,5 @@
+import type { User } from './User';
+
 export interface Entry {
   /**
    * Get value of the field by field id. Subtable fields not included.
@@ -127,14 +129,12 @@ export interface Entry {
   /**
    * Load value of every field that is set with a default value, parameter user is predefined.
    */
-  // TODO 補 User 型別
-  loadAllDefaultValues(user: Object): void;
+  loadAllDefaultValues(user: User): void;
 
   /**
    * Load default value of specified field, parameter user is predefined.
    */
-  // TODO 補 User 型別
-  loadDefaultValue(fieldId: number, user: Object): void;
+  loadDefaultValue(fieldId: number, user: User): void;
 
   /**
    * Lock the entry.
