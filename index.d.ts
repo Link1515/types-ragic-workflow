@@ -6,6 +6,7 @@ import type { Response } from './types/Response';
 import type { Mailer } from './types/Mailer';
 import type { Util } from './types/Util';
 import type { Account } from './types/Account';
+import type { Param } from './types/Param';
 
 declare global {
   const db: DB;
@@ -14,4 +15,5 @@ declare global {
   const mailer: Mailer;
   const util: Util;
   const account: Account;
+  const param: Param;
 }
