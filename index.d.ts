@@ -5,6 +5,7 @@ import type { User } from './types/User';
 import type { Response } from './types/Response';
 import type { Mailer } from './types/Mailer';
 import type { Util } from './types/Util';
+import type { Account } from './types/Account';
 
 declare global {
   const db: DB;
@@ -12,4 +13,5 @@ declare global {
   const response: Response;
   const mailer: Mailer;
   const util: Util;
+  const account: Account;
 }
