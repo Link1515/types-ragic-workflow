@@ -1,4 +1,11 @@
+import type { Query } from './Query';
+
 export interface DB {
+  /**
+   * Retrieves the query.
+   */
+  getAPIQuery(pathToForm: string): Query;
+
   /**
    * Retrieves the database name.
    */
