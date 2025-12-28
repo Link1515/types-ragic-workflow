@@ -7,6 +7,7 @@ import type { Mailer } from './types/Mailer';
 import type { Util } from './types/Util';
 import type { Account } from './types/Account';
 import type { Param } from './types/Param';
+import type { Approval } from './types/Approval';
 
 declare global {
   const db: DB;
@@ -16,4 +17,5 @@ declare global {
   const util: Util;
   const account: Account;
   const param: Param;
+  const approval: Approval;
 }
