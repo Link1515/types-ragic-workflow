@@ -1,8 +1,17 @@
 {
-  "name": "@types/ragic-workflow",
+  "name": "types-ragic-workflow",
   "version": "1.0.0",
   "types": "index.d.ts",
-  "keywords": [],
+  "keywords": [
+    "ragic",
+    "workflow",
+    "ragic workflow",
+    "ragic workflow types"
+  ],
   "license": "MIT",
-  "description": ""
+  "description": "Type definitions for Ragic Workflow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Link1515/types-ragic-workflow"
+  }
 }
