@@ -9,6 +9,7 @@ import type { Account } from './types/Account';
 import type { Param } from './types/Param';
 import type { Approval } from './types/Approval';
 import type { ApprovalParam } from './types/ApprovalParam';
+import type { Log } from './types/Log';
 
 declare global {
   const db: DB;
@@ -20,4 +21,5 @@ declare global {
   const param: Param;
   const approval: Approval;
   const approvalParam: ApprovalParam;
+  const log: Log;
 }
