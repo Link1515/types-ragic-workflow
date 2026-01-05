@@ -37,6 +37,11 @@ export interface Entry {
   getRootfieldId(): number;
 
   /**
+   * Get the value of a field in a subtable by its field ID.
+   */
+  getSubtableFieldValue(subtableRootfieldId: number, rowNumber: number, fieldId: number): string;
+
+  /**
    * Get the size of the subtable, specified by the root field id of the subtable.
    */
   getSubtableSize(subtableRootfieldId: number): number;
