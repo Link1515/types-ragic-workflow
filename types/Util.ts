@@ -49,5 +49,5 @@ export interface Util {
   /**
    * Downloads a file from the source URL, uploads it to the destination URL, and returns the filename.
    */
-  postFile(sourceFileUrl: string, destinationUrl: string): void;
+  postFile(sourceFileUrl: string, destinationUrl: string): string;
 }
