@@ -1,5 +1,7 @@
 # types-ragic-workflow
 
+[![GitHub stars](https://img.shields.io/github/stars/Link1515/types-ragic-workflow?style=social)](https://github.com/Link1515/types-ragic-workflow)
+
 TypeScript type definitions for the Ragic JavaScript Workflow Engine, written based on the [official API documentation](https://www.ragic.com/intl/en/doc/15/javascript-workflow-engine) to provide IDE IntelliSense, more reliable type hints, and clearer inline documentation when authoring workflow scripts.
 
 ## What this package provides
@@ -18,3 +20,7 @@ yarn add -D types-ragic-workflow
 # or
 pnpm add -D types-ragic-workflow
 ```
+
+## Support the project
+
+If this project helps you, please give it a ⭐ on [GitHub](https://github.com/Link1515/types-ragic-workflow) — thank you!
