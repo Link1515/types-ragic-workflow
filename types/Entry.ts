@@ -32,11 +32,6 @@ export interface Entry {
   getRootNodeId(): number;
 
   /**
-   * Get root field id of the entry.
-   */
-  getRootfieldId(): number;
-
-  /**
    * Get the value of a field in a subtable by its field ID.
    */
   getSubtableFieldValue(subtableRootfieldId: number, rowNumber: number, fieldId: number): string;
